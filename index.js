@@ -9,8 +9,8 @@ const API_KEY_WEATHER = process.env.API_KEY_WEATHER;
 
 const API_URL = `https://v6.exchangerate-api.com/v6/${API_KEY_RATE}/latest/USD`;
 const WEATHER_URL = `https://api.openweathermap.org/data/2.5/weather?q=Tashkent&appid=${API_KEY_WEATHER}&units=metric&lang=ru`;
-const AIR_QUALITY_URL = `https://api.openweathermap.org/data/2.5/air_pollution?lat=41.2995&lon=69.2401&appid=${API_KEY_WEATHER}`;
 const MEME_URL = "https://meme-api.com/gimme/ru_memes";
+const AIR_QUALITY_URL = `https://api.openweathermap.org/data/2.5/air_pollution?lat=41.2995&lon=69.2401&appid=${API_KEY_WEATHER}`;
 
 const bot = new TelegramBot(TOKEN, { polling: true });
 
